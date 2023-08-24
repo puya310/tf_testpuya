@@ -8,5 +8,6 @@ resource "aws_instance" "my_instance" {
     user_data = "sensitivekey"
     tags = {
         "Name" = "EC2_instance_TF_provisioned"
+
     }
 }
